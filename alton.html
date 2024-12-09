@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alton Skyvillas</title>
+  <link rel="stylesheet" href="alton.css">
+</head>
+<body>
+  <img class="whatsapp-logo" src="whatsapp.png" alt="whatsapp-logo" onclick="callWhatsapp()">
+<div class="wrapper">
+  <header>
+    <div class="header-container">
+      <a href="" class="logo-link">
+        <img src="alton_logo.png" alt="Alton Logo" class="logo">
+      </a>
+      <h1>Alton Skyvillas</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">INFO</a></li>
+          <li><a href="#facilities">FACILITIES</a></li>
+          <li><a href="#floorplan">FLOOR PLAN</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="slideshow-container">
+    <div class="slideshow-title">
+      <h2>Alton Skyvillas</h2>
+    </div>
+    
+    <div class="slide active">
+      <img src="AltonSkyvillas_SalesKit_page-0006.jpg" alt="Slide 1">
+    </div>
+    <div class="slide">
+      <img src="AltonSkyvillas_SalesKit_page-0010.jpg" alt="Slide 2">
+    </div>
+    <div class="slide">
+      <img src="AltonSkyvillas_SalesKit_page-0007.jpg" alt="Slide 3">
+    </div>
+
+    <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+    <button class="next" onclick="plusSlides(1)">&#10095;</button>
+
+    <div class="slide-indicators">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <main>
+    <section id="about" class="content">
+      <h2>About Alton Skyvillas</h2>
+      <div class="section-content">
+        <p>Nestled in the vibrant neighborhood of <b>Jelutong, Penang</b>. Alton Skyvillas offers the perfect blend of urban convenience and 
+          serene living. Residents enjoy easy access to key amenities, including <b>shopping malls, schools, healthcare facilities, and local 
+          eateries</b>, all while being surrounded by the island's natural beauty. With its strategic location, you're <b>minutes away from
+           George Town's bustling attractions and Penang Bridge</b>, ensuring seamless connectivity to the mainland. Alton Skyvillas is the ideal 
+           choice for those seeking a modern lifestyle in a well-connected, thriving community.
+        </p>
+      </div>
+      <h3 class="additional-image-title">Location</h3>
+      <div class="additional-image">
+        <img src="AltonSkyvillas_SalesKit_page-0005.jpg" alt="Additional Image">
+      </div>
+        <div>
+          <ul class="location-list">
+            <li>~ 2 minutes to Sunshine Jelutong</li>
+            <li>~ 2 minutes to Public Bank</li>
+            <li>~ 4 minutes tp Polis Station</li>
+            <li>~ 5 minutes to Lam Wah Ee Hospital</li>
+            <li>~ 7 minutes to Heng Ee High School</li>
+            <li>~ 8 minutes to Patrol Station</li>
+          </ul>
+        </div>
+
+    </section>
+
+    <section id="facilities" class="content">
+      <h2>Facilities</h2>      
+      <div class="additional-facility-images">
+        <div class="image-gallery">
+          <img src="facilities1.jpg" alt="Facility 1">
+          <img src="facilities2.jpg" alt="Facility 2">
+          <img src="facilities3.jpg" alt="Facility 3">
+        </div>
+      </div>
+
+      <div class="facilities-container">
+        <ul class="facilities-row">
+          <li><img src="swiming-pool.png" alt="swimming-pool"> Swimming Pool</li>
+          <li><img src="barbeque.png" alt="barbeque"> Barbeque Area</li>
+          <li><img src="car.png" alt="car"> Covered Car Park</li>
+          <li><img src="weight.png" alt="weight"> Gymnasium Room</li>
+          <li><img src="ground.png" alt="ground"> Wading Pool</li>
+          <li><img src="drop.png" alt="drop"> Drop Off Point</li>
+          <li><img src="car-park.png" alt="car-park"> Multi-story Car Park</li>
+        </ul>
+        <ul class="facilities-row">
+          <li><img src="lounge.png" alt="lounge"> Lounge</li>
+          <li><img src="town-hall.png" alt="town-hall"> Multi-purpose Hall</li>
+          <li><img src="sauna.png" alt="sauna"> Sauna</li>
+          <li><img src="praying.png" alt="praying"> Surau</li>
+          <li><img src="jacuzzi.png" alt="jacuzzi"> Jacuzzi</li>
+          <li><img src="playground.png" alt="playground"> Playground</li>
+          <li><img src="policeman.png" alt="policeman"> 24 Hours Security</li>
+        </ul>
+      </div>
+
+      <div class="button-container">
+        <button class="footer-button" onclick="callWhatsapp()">Click To Download E-Brochure</button>
+      </div>
+      
+    </section>
+    
+    <section id="floorplan" class="content">
+      <h2 class="additional-image-title">Floor Plan</h2>
+        <img class="building-img" src="AltonSkyvillas_SalesKit_page-0012.jpg" alt="Additional Image">
+      <div class="floorplan-item">
+        <div class="floorplan-image">
+          <img src="AltonSkyvillas_SalesKit_page-0013.jpg" alt="Floor Plan 1" onclick="openModal(this)">
+        </div>
+        <div class="floorplan-text">
+          <h3>Type A (1,132 sq.ft.)</h3>
+          <ul class="custom-list">
+            <li><img src="bed.png" alt="bed" class="list-icon">3 Bedrooms</li>
+            <li><img src="toilet.png" alt="bathrooms" class="list-icon">2 Bathrooms</li>
+          </ul>  
+        </div>
+      </div>
+    
+      <div class="floorplan-item reverse">
+        <div class="floorplan-text">
+          <h3>Type B1 (1,658 sq.ft)</h3>
+          <ul class="custom-list">
+            <li><img src="bed.png" alt="bedrooms" class="list-icon">3 Bedrooms</li>
+            <li><img src="toilet.png" alt="bathrooms" class="list-icon">5 Bathrooms</li>              
+          </ul>
+          </div>
+        <div class="floorplan-image">
+          <img src="AltonSkyvillas_SalesKit_page-0014.jpg" alt="Floor Plan 2">
+        </div>
+      </div>
+    
+      <div class="floorplan-item">
+        <div class="floorplan-image">
+          <img src="AltonSkyvillas_SalesKit_page-0015.jpg" alt="Floor Plan 3">
+        </div>
+        <div class="floorplan-text">
+          <h3>Type B2 (1,687 sq.ft.)</h3>
+          <ul class="custom-list">
+            <li><img src="bed.png" alt="bed" class="list-icon">3 Bedrooms</li>
+            <li><img src="toilet.png" alt="bathrooms" class="list-icon">5 Bathrooms</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="button-container">
+  <button class="footer-button" onclick="callWhatsapp()">Contact Us For More Details</button>
+  <button class="footer-button" onclick="callWhatsapp()">Make Appointment For Showroom</button>
+</div>
+
+<footer id="contact">
+  <a href="">
+    <img src="alton_logo.png" alt="Alton Logo" class="logo">
+  </a>
+    <p>&copy; 2024 AIRMAS GROUP. All rights reserved.</p>
+    <div class="social-media">
+      <button class="footer-button" onclick="callWhatsapp()">WhatsApp</button>
+      <p>Phone: +60136877878</p>
+    </div>
+</footer>
+
+  <script src="alton.js"></script>
+</body>
+</html>
